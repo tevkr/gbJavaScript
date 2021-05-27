@@ -1,2 +1,1 @@
-# gbJavaScript
-gbJavaScript
+
