@@ -58,7 +58,7 @@ class Basket
     removeAllPurchases() { this.#purchases = []; }
     calculatePrice()
     {
-        return this.#purchases.reduce(function(prev = 0, current) 
+        return this.#purchases.reduce(function(prev, current) 
         { 
             return prev + (current.getProduct().getPrice() * current.getCount()); 
         }, 0);
