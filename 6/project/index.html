@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Shop</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
+</head>
+<body>
+    <div class="prompt" id="prompt">
+        <div class="prompt-form basket" id="basket-form">
+            <button class="basket-exit-button" id="basket-exit-button">X</button>
+            <div class="prompt-title" id="basket-title-1">Корзина пуста</div><br>
+            <div class="content-1">
+                <table class="prompt-basket-purchases" id="basket-purchases">
+                </table><br>
+                <div class="prompt-total-price" id="prompt-total-price"></div>
+                <button id="basket-next-button-1">Далее</button>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header-title">Shop</div>
+        <div class="header-basket" id="header-basket">BASKET</div>
+    </div>
+    <div class="content padding-site">
+        <div id="catalog"></div>
+    </div>
+    <script defer src="js/classes.js"></script>
+    <script defer src="js/init.js"></script>
+    <script defer src="js/basketOperations.js"></script>
+    <script defer src="js/fillCatalog.js"></script>
+</body>
+</html>
